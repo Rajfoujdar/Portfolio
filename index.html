@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Raj | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="portfolio-bg">
+
+    <!-- 1. Navigation Bar -->
+    <nav class="navbar">
+        <h2 class="logo">Prashant<span>.dev</span></h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-btn">🌙 Light Mode</button>
+    </nav>
+
+    <!-- 2. Home / Hero Section (Aapka Pehle Wala Card) -->
+    <section id="home" class="hero-section">
+        <div class="card">
+            <img src="my-pic.jpg" alt="Profile Picture">
+            <h2>Prashant Raj</h2>
+            <p class="role">Full Stack Web Developer</p>
+            <p class="bio">Shuruat se coding seekh raha hoon aur ek din badiya websites banaunga!</p>
+            <button class="primary-btn">Connect Karein</button>
+           <div class="social-links-icons">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Namaste! Main Prashant Raj hoon. Mujhe web development seekhna aur naye-naye web projects banana pasand hai. Main frontend aur backend dono seekh kar ek successful Full Stack Developer banna chahta hoon.</p>
+    </section>
+
+    <!-- 4. Skills Section -->
+    <section id="skills" class="section gray-bg">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-box">HTML5</div>
+            <div class="skill-box">CSS3</div>
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- 5. Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+       <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Aapka Naam" required>
+            <input type="email" placeholder="Aapka Email" required>
+            <textarea placeholder="Aapka Message..." rows="4" required></textarea>
+            <button type="submit" class="primary-btn">Message Bhejein</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Prashant Raj. All Rights Reserved.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
